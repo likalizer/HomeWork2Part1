@@ -263,6 +263,34 @@ print("Температура: \(temperatureToday) C")
 
  */
 
+
+var profileInfo = (userName: "Кейт", userLastName: "Котенко", userAge: 28, userHeight: 175, userWeight: 55, isMarried: false)
+
+profileInfo.userName = "Анна"
+profileInfo.userLastName = "Матвієнко"
+profileInfo.userAge = 60
+profileInfo.isMarried = true
+
+print("Інфорація профіля:")
+print("Ім'я: \(profileInfo.userName)")
+print("Прізвище: \(profileInfo.userLastName)")
+print("Вік: \(profileInfo.userAge)")
+print("Зріст: \(profileInfo.userHeight) см")
+print("Вага: \(profileInfo.userWeight) кг")
+print("У шлюбі: \(profileInfo.isMarried ? "так" : "ні")")
+
+
+var weatherInfo = (humidity: 51, temperature: 24, pressure: 1036)
+weatherInfo.1 = 22
+
+print("\nІнформація про погоду:")
+print("Температура: \(weatherInfo.temperature)°C")
+print("Тиск: \(weatherInfo.pressure) hPa")
+print("Вологість: \(weatherInfo.humidity)%")
+
+
+
+
 print("Прізвище: ")
 print("Вік: ")
 print("Зріст: см")
