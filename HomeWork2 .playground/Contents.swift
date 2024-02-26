@@ -318,6 +318,13 @@ print("\nРозділ 1.5 Опціонали\n")
 
  */
 
-print("Користувач авторизован: ")
 
+var userLoggedIn: Bool?
+
+print("Значення userLoggedIn до присвоєння: \(userLoggedIn as Any)")
+userLoggedIn = true
+
+print("Значення userLoggedIn після присвоєння: \(userLoggedIn as Any)")
+
+print("Користувач авторизован: ")
 print("Користувач авторизован: ")
