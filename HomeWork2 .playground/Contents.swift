@@ -198,6 +198,40 @@ print("Температура: C")
 
 print("\nРозділ 1.4 Кортежі\n")
 
+
+
+// Додати стандартні типи:
+
+typealias Pressure = Int
+typealias Humidity = Int
+typealias Celsius = Int
+
+// Оголосити 3 змінні:
+
+var pressureYesterday: Pressure = 1050
+var humidityYesterday: Humidity = 40
+var temperatureYesterday: Celsius = 22
+
+// Вивести в консоль:
+
+print("Погода вчора:")
+print("Тиск: \(pressureYesterday) hPa")
+print("Вологість: \(humidityYesterday)%")
+print("Температура: \(temperatureYesterday) C")
+
+// Присвоїмо нові значення:
+
+var pressureToday: Pressure = 1036
+var humidityToday: Humidity = 51
+var temperatureToday: Celsius = 24
+
+// Виводимо нові данні:
+
+print("\nПогода сьогодні:")
+print("Тиск: \(pressureToday) hPa")
+print("Вологість: \(humidityToday)%")
+print("Температура: \(temperatureToday) C")
+
 /*
 
  Розділ 1.4 - Кортежі
