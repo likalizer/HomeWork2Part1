@@ -41,6 +41,19 @@ print("Хатня тварина голодна: ")
 
 print("\nРозділ 1.2 Змінні\n")
 
+
+let catName: String = "Leya"
+print("Ім'я хатньої тварини: \(catName)")
+
+let catWeight: Double = 4
+print("Вага хатньої тварини: \(catWeight) кг")
+
+let catAge: Int = 2
+print("Вік хатньої тварини: \(catAge) роки")
+
+let isHungry: Bool = true
+print("Чи голодна хатня тварина: \(isHungry)")
+
 /*
 
  Розділ 1.2 - Змінні
