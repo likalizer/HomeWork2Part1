@@ -115,6 +115,39 @@ print("У шлюбі: ")
 
 print("\nРозділ 1.3 Псевдоніми\n")
 
+
+
+// Оголошення змінних
+var userName: String = "Кейт"
+var userLastName: String = "Котенко"
+var userAge: Int = 28
+var userHeight: Int = 175
+var userWeight: Int = 55
+var isMarried: Bool = false
+
+// Вивід інформації за 2018 рік
+print("Інформація за 2018 р.:")
+print("Ім'я: \(userName)")
+print("Прізвище: \(userLastName)")
+print("Вік: \(userAge)")
+print("Зріст: \(userHeight) см")
+print("Вага: \(userWeight) кг")
+print("У шлюбі: \(isMarried ? "так" : "ні")")
+
+// Зміна змінних
+isMarried = true  // Тепер у шлюбі
+userWeight += 5  // Збільшення ваги на 5 кг
+userAge += 1  // Додавання одного року до віку
+
+// Вивід нової інформації за поточний рік
+print("\nІнформація за поточний рік:")
+print("Ім'я: \(userName)")
+print("Прізвище: \(userLastName)")
+print("Вік: \(userAge)")
+print("Зріст: \(userHeight) см")
+print("Вага: \(userWeight) кг")
+print("У шлюбі: \(isMarried ? "так" : "ні")")
+
 /*
 
  Розділ 1.3 - Псевдоніми
